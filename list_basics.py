@@ -59,3 +59,10 @@ print(marks)
 
 print(marks.index(90))  # find index of 90
 print(marks.count(90))  # count occurrences"""
+
+"""names = ["Suraj", "Putta", "Ravi"]
+for name in names:
+    print(name)
+
+for i, name in enumerate(names): # With index using enumerate
+    print(f"{i+1}. {name}")"""
