@@ -44,3 +44,18 @@ marks.reverse()
 print(marks.index(50))
 print(marks.count(78))
 print(marks)"""
+
+
+"""marks = [85, 90, 78]
+
+marks.append(92)        # add to end     → [85,90,78,92]
+marks.insert(1, 100)    # insert at index → [85,100,90,78,92]
+marks.remove(78)        # remove by value → [85,100,90,92]
+marks.pop()              # remove last     → [85,100,90]
+marks.pop(0)            # remove at index → [100,90]
+marks.sort()             # sort ascending  → [90,100]
+marks.reverse()          # reverse         → [100,90]
+print(marks)
+
+print(marks.index(90))  # find index of 90
+print(marks.count(90))  # count occurrences"""
