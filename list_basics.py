@@ -15,3 +15,12 @@ print(marks[0])
 print(marks[3])   
 print(marks[-3])   
 print(marks[-1])"""
+
+
+#slicing — get a portion of list
+"""marks = [85, 90, 78, 92, 88]
+
+print(marks[1:4])
+print(marks[0:],"Seeda")
+print(marks[::-1],"Ulta")
+print(marks[:2])"""
