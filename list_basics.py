@@ -66,3 +66,15 @@ for name in names:
 
 for i, name in enumerate(names): # With index using enumerate
     print(f"{i+1}. {name}")"""
+
+#List Comprehension
+
+# sq = []
+# for i in range(1,6):
+#     sq.append(i**2)
+
+"""squ = [i**2 for i in range(1,6)]
+print(squ)
+
+even = [i for i in range(1,21) if i % 2 == 0]
+print(even)"""
