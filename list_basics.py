@@ -94,3 +94,12 @@ fail = [m for m in marks if m <= 80]
 
 print(f"Above 80  : {passed}")
 print(f"Below 80  : {fail}")"""
+
+"""n = [32,56,12,78,2]
+
+print(f"Total   : {sum(n)}")
+print(f"Average : {sum(n)/len(n):.2f}")
+print(f"Minium  : {min(n)}")
+print(f"Maxium  : {max(n)}")
+print(f"Sorted : {sorted(n)}")
+"""
