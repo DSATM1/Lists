@@ -78,3 +78,19 @@ print(squ)
 
 even = [i for i in range(1,21) if i % 2 == 0]
 print(even)"""
+
+
+
+"""marks = [85, 92, 78, 95, 88, 72, 90]
+print(f"Marks     : {marks}")
+print(f"Total     : {sum(marks)}")
+print(f"Average   : {sum(marks)/len(marks):.2f}")
+print(f"Highest   : {max(marks)}")
+print(f"Lowest    : {min(marks)}")
+print(f"Sorted    : {sorted(marks)}")
+
+passed = [m for m in marks if m >= 80]
+fail = [m for m in marks if m <= 80]
+
+print(f"Above 80  : {passed}")
+print(f"Below 80  : {fail}")"""
