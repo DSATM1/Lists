@@ -24,3 +24,23 @@ print(marks[1:4])
 print(marks[0:],"Seeda")
 print(marks[::-1],"Ulta")
 print(marks[:2])"""
+
+
+"""marks = [85, 90, 78, 92, 88]
+
+marks.append(100)
+print(marks)
+marks.insert(3,50)   # insert at index
+print(marks)
+marks.remove(100)
+print(marks)
+marks.pop()
+print(marks)
+marks.pop(0)
+print(marks)
+marks.sort()
+print(marks)
+marks.reverse()
+print(marks.index(50))
+print(marks.count(78))
+print(marks)"""
